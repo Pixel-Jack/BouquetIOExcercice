@@ -16,7 +16,7 @@ class NotFound extends React.Component {
                 <br/>
                 (Of course, if you think something is broken, feel free to report the problem)
               </h3>
-              <Link className='btn notFound' to="/bymonth">Chart By Month And Year</Link>
+              <Link className='btn notFound' to="/">Chart By Month And Year</Link>
               <Link className='btn notFound' to="/byperiod">Chart By Period</Link>
             </div>
           </div>
