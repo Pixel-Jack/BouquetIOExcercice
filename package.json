@@ -1,0 +1,15 @@
+{
+  "name": "bouquet.io",
+  "version": "1.0.0",
+  "description": "\"Software for my application to an internship in Bouquet.io\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Clément Ponthieu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
