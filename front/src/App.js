@@ -22,7 +22,7 @@ class App extends React.Component {
             <Route exact path="/" component={CountByMonthYearContainer}/>
             <Route path="*" component={NotFound}/>
           </Switch>
-          <h4 className="hero d-flex flex-row-reverse">By Clément Ponthieu</h4>
+          <h4 className="hero author d-flex flex-row-reverse">By Clément Ponthieu</h4>
         </div>
       </Router>
     );

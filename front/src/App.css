@@ -12,31 +12,30 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.hero {
     font-family: "Benton Sans Bla";
-    font-size: 3.5rem;
+    font-size: 2.9rem;
     color: #465e63;
-    line-height: 4.3rem;
     margin-top: 20px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 h3.hero {
     font-family: "Benton Sans Reg";
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: #465e63;
-    line-height: 2.1rem;
     margin-top: 20px;
     padding-bottom: 5px;
 }
 
 h4.hero{
     font-family: "Benton Sans Bd";
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #ed7b29;
     text-transform: uppercase;
 }
 
 .nav, h4.hero.nav{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 
@@ -104,7 +103,7 @@ h3.hero.notFound{
 }
 
 .btn.btn-secondary.btn-container{
-    font-size: 1.6rem;
+    font-size: 1rem;
     border-radius: 40px;
     padding: 15px 30px;
     height: 80%;
@@ -112,7 +111,7 @@ h3.hero.notFound{
 
 .dropdownIt {
     font-family: "Benton Sans Reg";
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     color: #465e63;
 }
 
@@ -131,4 +130,9 @@ a {
     margin-right: 4%;
     border: 10px solid rgba(0, 0, 0, 0.125);
     border-radius: 40px;
+}
+
+.author {
+    padding: 10px;
+    padding-right: 20px;
 }

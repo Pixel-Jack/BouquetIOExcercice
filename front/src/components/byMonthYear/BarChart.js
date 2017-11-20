@@ -65,12 +65,12 @@ class BarCountChart extends React.Component {
     if (dataMonthYear && dataMonthYear.length > 0) {
       let sortData = this.sortData(dataMonthYear);
       barChart.push(
-        <BarChart width={1500} height={600} data={sortData} key={'barchart'} barCategoryGap="10%"
+        <BarChart width={1100} height={600} data={sortData} key={'barchart'} barCategoryGap="10%"
                   margin={{ top: 50, right: 50, bottom: 100, left: 100 }}>
           <XAxis dataKey="department" interval={0}
-                 tick={{ angle: -20, textAnchor: 'end', strokeWidth: 1, fontSize: '80%' }}/>
+                 tick={{ angle: -20, textAnchor: 'end', strokeWidth: 1, fontSize: '60%' }}/>
           <YAxis label={{ value: 'Total amount($)', angle: -90, position: 'insideLeft', strokeWidth: 1 }}
-                 tick={{ angle: -20, textAnchor: 'end', fontSize: '70%' }}
+                 tick={{ angle: -20, textAnchor: 'end', fontSize: '60%' }}
           />
           <Tooltip payload={sortData} content={<CustomTooltip/>}/>
           <CartesianGrid strokeDasharray="3 3"/>
